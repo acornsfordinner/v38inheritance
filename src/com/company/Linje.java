@@ -29,6 +29,7 @@ public class Linje extends Figur {
         return slutpunkt;
     }
 
+    @Override
     public void printInfo(){
         System.out.print("Linje med slut");
         slutpunkt.printInfo();

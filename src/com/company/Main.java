@@ -12,7 +12,7 @@ public class Main {
         System.out.println();
         Cirkel c = new Cirkel();
         c.printInfo();
-        
+
         /*Figur blob = new Figur(25,70);
 	    Rektangel ruta = new Rektangel(125,300);
 	    Cirkel rund = new Cirkel(100,50,5);

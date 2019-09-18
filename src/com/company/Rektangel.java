@@ -31,6 +31,7 @@ public Rektangel(int x1, int y1, int x2, int y2) {
     public Punkt getSlutpunkt() {
         return this.slutpunkt;
     }
+    @Override
     public void printInfo(){
         System.out.print("Rektangel med slutpunkt ");
         slutpunkt.printInfo();

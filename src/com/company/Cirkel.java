@@ -30,7 +30,7 @@ public class Cirkel extends Figur {
     public int getRadie() {
         return radie;
     }
-
+    @Override
     public void printInfo() {
         System.out.print("Cirkel med radie "+radie+" som ärver från ");
         super.printInfo();
